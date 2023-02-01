@@ -1,0 +1,1 @@
+{"name":"Local: tong_day_con_bang_k","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\tong_day_con_bang_k.cpp","tests":[{"id":1675123615280,"input":"2\n5 50\n5  10 15 20  25\n8  53\n15  22  14  26  32  9  16  8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\tong_day_con_bang_k.cpp","group":"local","local":true}

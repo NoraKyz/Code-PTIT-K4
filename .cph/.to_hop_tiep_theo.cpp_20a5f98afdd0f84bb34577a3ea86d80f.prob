@@ -1,0 +1,1 @@
+{"name":"Local: to_hop_tiep_theo","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\to_hop_tiep_theo.cpp","tests":[{"id":1675074660023,"input":"3\n\n5 3\n\n1 3 5\n\n5 3\n\n1 4 5\n\n6 4\n\n3 4 5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\to_hop_tiep_theo.cpp","group":"local","local":true}
