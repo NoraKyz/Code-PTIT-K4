@@ -10,16 +10,27 @@
 using namespace std;
 const ll MOD=1e9+7;
 
-ll t, n;
-ll a[100001];
+ll t, n, k;
+
+ll ModulePow(ll a, ll b)
+{
+    if(b == 0) return 1;
+    
+    ll k = ModulePow(a,b/2)%MOD;
+
+    if(b%2 == 0) return k*k%MOD;
+    else return ((k*k%MOD)*a)%MOD;
+}
     
 int main()
 {   
     fast_cin
-    cin >> t;
-    while(t--)
+    //cin >> t;
+    while(1)
     {
-    
+        cin >> n >> k;
+        if(n == k && n == 0) break;
+        cout << ModulePow(n,k) << '\n';
     }
     
     return 0;

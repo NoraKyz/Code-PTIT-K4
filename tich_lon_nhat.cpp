@@ -10,16 +10,23 @@
 using namespace std;
 const ll MOD=1e9+7;
 
-ll t, n;
+ll n;
+ll a[100000];
     
 int main()
 {   
     fast_cin
-    cin >> t;
-    while(t--)
-    {
-    
-    }
+    cin >> n;
+    FOR(i,1,n,1) cin >> a[i];
+    sort(a+1,a+1+n);
+
+    ll res = -1e9;
+    res = max(res,a[1]*a[2]);
+    res = max(res,a[n]*a[n-1]);
+    res = max(res,a[1]*a[2]*a[n]);
+    res = max(res,a[n]*a[n-1]*a[n-2]);
+
+    cout << res;
     
     return 0;
 }

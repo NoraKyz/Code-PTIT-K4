@@ -8,10 +8,19 @@
 #define se second
 #define fast_cin ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 using namespace std;
-const ll MOD=1e9+7;
+const ll MOD=123456789;
 
-ll t, n;
-ll a[100001];
+ll t, n, k;
+
+ll ModulePow(ll a, ll b)
+{
+    if(b == 0) return 1;
+    
+    ll k = ModulePow(a,b/2)%MOD;
+
+    if(b%2 == 0) return k*k%MOD;
+    else return ((k*k%MOD)*a)%MOD;
+}
     
 int main()
 {   
@@ -19,7 +28,8 @@ int main()
     cin >> t;
     while(t--)
     {
-    
+        cin >> n;
+        cout << ModulePow(2,n-1) << '\n';
     }
     
     return 0;

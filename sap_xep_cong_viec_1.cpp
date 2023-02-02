@@ -11,7 +11,7 @@ using namespace std;
 const ll MOD=1e9+7;
 
 ll t, n;
-ll a[100001];
+pair<ll,ll> a[10000];
     
 int main()
 {   
@@ -19,7 +19,22 @@ int main()
     cin >> t;
     while(t--)
     {
-    
+        cin >> n;
+        FOR(i,1,n,1) cin >> a[i].second;
+        FOR(i,1,n,1) cin >> a[i].first;
+        sort(a+1,a+1+n);
+
+        ll res = 1, timeEnd = a[1].first;
+        FOR(i,2,n,1) 
+        {
+            if(a[i].second >= timeEnd) 
+            {
+                res++;
+                timeEnd = a[i].first;
+            }
+        }
+
+        cout << res << '\n';
     }
     
     return 0;

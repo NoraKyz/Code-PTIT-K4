@@ -10,8 +10,8 @@
 using namespace std;
 const ll MOD=1e9+7;
 
-ll t, n;
-ll a[100001];
+ll t, n, k;
+ll a[1000001];
     
 int main()
 {   
@@ -19,7 +19,15 @@ int main()
     cin >> t;
     while(t--)
     {
-    
+        cin >> n >> k;
+        FOR(i,1,n,1) cin >> a[i];
+
+        ll d = upper_bound(a+1,a+1+n,k) - a;
+
+        if(a[d-1] == k) cout << d-1;
+        else cout << "NO";
+
+        cout << '\n';
     }
     
     return 0;

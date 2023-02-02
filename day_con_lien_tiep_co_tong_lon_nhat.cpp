@@ -11,7 +11,7 @@ using namespace std;
 const ll MOD=1e9+7;
 
 ll t, n;
-ll a[100001];
+ll a[10000];
     
 int main()
 {   
@@ -19,7 +19,19 @@ int main()
     cin >> t;
     while(t--)
     {
-    
+        cin >> n;
+        FOR(i,1,n,1) cin >> a[i];
+
+        ll res = -1e9, mi = 0, sum = 0;
+
+        FOR(i,1,n,1) 
+        {
+            sum += a[i];
+            res = max(res, sum - mi);
+            mi = min(mi, sum);
+        }
+
+        cout << res << '\n';
     }
     
     return 0;

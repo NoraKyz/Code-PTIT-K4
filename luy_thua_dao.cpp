@@ -10,7 +10,29 @@
 using namespace std;
 const ll MOD=1e9+7;
 
-ll t, n;
+ll t, n, k;
+
+ll SoDao(ll n)
+{
+    ll res = 0;
+    while(n > 0)
+    {
+        res = res*10 + n%10;
+        n/=10;
+    }
+
+    return res;
+}
+
+ll ModulePow(ll a, ll b)
+{
+    if(b == 0) return 1;
+    
+    ll k = ModulePow(a,b/2)%MOD;
+
+    if(b%2 == 0) return k*k%MOD;
+    else return ((k*k%MOD)*a)%MOD;
+}
     
 int main()
 {   
@@ -18,7 +40,8 @@ int main()
     cin >> t;
     while(t--)
     {
-    
+        cin >> n;
+        cout << ModulePow(n,SoDao(n)) << '\n';
     }
     
     return 0;

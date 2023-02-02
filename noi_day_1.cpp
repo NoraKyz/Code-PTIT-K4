@@ -18,7 +18,28 @@ int main()
     cin >> t;
     while(t--)
     {
-    
+        priority_queue<ll,vector<ll>,greater<ll>> q;
+        ll x, y, res = 0;
+        
+        cin >> n;
+        FOR(i,1,n,1) 
+        {
+            cin >> x;
+            q.push(x);
+        }
+
+        while(q.size() != 1)
+        {
+            x = q.top();
+            q.pop();
+            y = q.top();
+            q.pop();
+
+            res += x + y;
+            q.push(x+y);
+        }
+
+        cout << res << '\n';
     }
     
     return 0;

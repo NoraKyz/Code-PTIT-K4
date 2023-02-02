@@ -10,7 +10,7 @@
 using namespace std;
 const ll MOD=1e9+7;
 
-ll t, n;
+ll t, n, k;
 ll a[100001];
     
 int main()
@@ -19,7 +19,15 @@ int main()
     cin >> t;
     while(t--)
     {
-    
+        cin >> n >> k;
+        FOR(i,1,n,1) cin >> a[i];
+
+        ll d = upper_bound(a+1,a+1+n,k) - a;
+
+        if(d-1 == 0) cout << -1;
+        else cout << d-1;
+
+        cout << '\n';
     }
     
     return 0;

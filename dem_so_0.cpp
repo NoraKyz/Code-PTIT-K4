@@ -11,7 +11,7 @@ using namespace std;
 const ll MOD=1e9+7;
 
 ll t, n;
-ll a[100001];
+ll a;
     
 int main()
 {   
@@ -19,7 +19,15 @@ int main()
     cin >> t;
     while(t--)
     {
-    
+        cin >> n;
+        ll res = n+1;
+        FOR(i,1,n,1) 
+        {
+            cin >> a;
+            if(a == 1 && res == n+1) res = i;
+        }
+
+        cout << res-1 << '\n';
     }
     
     return 0;

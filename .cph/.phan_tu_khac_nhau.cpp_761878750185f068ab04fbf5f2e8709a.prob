@@ -1,0 +1,1 @@
+{"name":"Local: phan_tu_khac_nhau","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\phan_tu_khac_nhau.cpp","tests":[{"id":1675306828920,"input":"2\n7\n2 4 6 8 10 10 12\n2 4 6 8 10 12\n6\n3 5 7 9 11 13\n3 5 7 11 13","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\phan_tu_khac_nhau.cpp","group":"local","local":true}

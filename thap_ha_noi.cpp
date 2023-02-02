@@ -11,15 +11,25 @@ using namespace std;
 const ll MOD=1e9+7;
 
 ll t, n;
+
+void Solve(ll n, char a, char b, char c)
+{
+    if(n == 1) 
+    {
+        cout << a << " -> " << c << '\n';
+        return;
+    }
+
+    Solve(n-1,a,c,b);
+    Solve(1,a,b,c);
+    Solve(n-1,b,a,c);
+}
     
 int main()
 {   
     fast_cin
     cin >> t;
-    while(t--)
-    {
-    
-    }
+    Solve(t,'A','B','C');
     
     return 0;
 }
