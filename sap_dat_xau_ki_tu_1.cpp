@@ -13,6 +13,8 @@ const ll MOD=1e9+7;
 ll t, n;
 string s;
 
+// 1 cách ngắn hơn là trực tiếp sắp xếp
+
 ll Solve(string s)
 {
     ll a[1001] = {0};

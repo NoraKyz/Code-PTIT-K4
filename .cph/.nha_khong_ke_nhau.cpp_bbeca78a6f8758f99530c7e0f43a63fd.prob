@@ -1,0 +1,1 @@
+{"name":"Local: nha_khong_ke_nhau","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\nha_khong_ke_nhau.cpp","tests":[{"id":1677467605419,"input":"2\n6\n5 5 10 100 10 5\n4\n3 2 7 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\nha_khong_ke_nhau.cpp","group":"local","local":true}

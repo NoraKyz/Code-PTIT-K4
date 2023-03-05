@@ -1,0 +1,1 @@
+{"name":"Local: bien_doi_tien_to_trung_to","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\bien_doi_tien_to_trung_to.cpp","tests":[{"id":1676997377296,"input":"2\n*+AB-CD\n*-A/BC-/AKL","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\bien_doi_tien_to_trung_to.cpp","group":"local","local":true}

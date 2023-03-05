@@ -1,0 +1,1 @@
+{"name":"Local: kiem_tra_duong_di","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\kiem_tra_duong_di.cpp","tests":[{"id":1677335376156,"input":"1\n\n6 5\n\n1 2\n\n2 3\n\n3 4\n\n1 4\n\n5 6\n\n2\n\n1 5\n\n2 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\kiem_tra_duong_di.cpp","group":"local","local":true}

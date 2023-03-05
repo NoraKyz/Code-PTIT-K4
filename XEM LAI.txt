@@ -1,3 +1,5 @@
 QHĐ -> Tham lam -> Chia để trị
-68+69
+68
+69
+184
 Khi thao tác với unordered_map, dùng for auto mà gọi đến phần tử chưa được khai báo sẽ làm con trỏ bị sai lệch

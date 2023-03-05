@@ -1,0 +1,1 @@
+{"name":"Local: ngan_xep_1","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\ngan_xep_1.cpp","tests":[{"id":1675610437997,"input":"push 3\n\npush 5\n\nshow\n\npush 7\n\nshow\n\npop\n\npop\n\nshow","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\ngan_xep_1.cpp","group":"local","local":true}

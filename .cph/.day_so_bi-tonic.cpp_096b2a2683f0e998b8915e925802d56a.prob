@@ -1,0 +1,1 @@
+{"name":"Local: day_so_bi-tonic","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\day_so_bi-tonic.cpp","tests":[{"id":1677510704068,"input":"2\n6\n80 60 30 40 20 10\n9\n1 15 51 45 33 100 12 18 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\day_so_bi-tonic.cpp","group":"local","local":true}

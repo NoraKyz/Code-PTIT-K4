@@ -1,0 +1,1 @@
+{"name":"Local: tich_da_thuc","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\tich_da_thuc.cpp","tests":[{"id":1677501767908,"input":"2\n4 3\n1 0 3 2\n2 0 4\n5 4\n1 9 3 4 7\n4 0 2 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\tich_da_thuc.cpp","group":"local","local":true}
