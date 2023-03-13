@@ -11,8 +11,7 @@ using namespace std;
 const ll MOD=1e9+7;
 
 ll t, n;
-string s1, s2;
-ll dp[201][201] = {0};
+string s;
     
 int main()
 {   
@@ -20,29 +19,27 @@ int main()
     cin >> t;
     while(t--)
     {
-        cin >> s1 >> s2;
-        ll n1 = s1.size(), n2 = s2.size();
+        ll res = 1;
+        cin >> s;
+        n = s.size()-1;
 
-        FOR(i,1,n1,1) dp[i][0] = i;
-        FOR(i,1,n2,1) dp[0][i] = i;
-
-        FOR(i,1,n1,1)
+        FOR(i,0,n,1) 
         {
-            FOR(j,1,n2,1) 
+            FOR(j,0,i-1,1) 
             {
-                if(s1[i-1] == s2[j-1]) 
+                ll l = j, r = i, kt = 1;
+                while(l < r) 
                 {
-                    dp[i][j] = dp[i-1][j-1];
+                    if(s[l++] != s[r--]) kt = 0;
+                    if(kt == 0) break;
                 }
-                else 
-                {
-                    dp[i][j] = min(min(dp[i-1][j], dp[i][j-1]), dp[i-1][j-1]) + 1;
-                }            
+
+                if(kt) res = max(i-j+1, res);
             }
         }
 
-        cout << dp[n1][n2] << '\n';
+        cout << res << '\n';
     }
-        
+    
     return 0;
 }

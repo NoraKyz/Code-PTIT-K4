@@ -1,0 +1,67 @@
+#include<bits/stdc++.h>
+#define FOR(i,a,b,k) for (ll i=a;i<=b;i+=k)
+#define FORD(i,a,b,k) for (ll i=a;i>=b;i-=k)
+#define pb(i) push_back(i)
+#define ll long long int
+#define all(a) (a).begin(), (a).end()
+#define fi first
+#define se second
+#define fast_cin ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+using namespace std;
+const ll MOD=1e9+7;
+
+ll t, n;
+ll m[500] = {0};
+char x[500];
+    
+int main()
+{   
+    fast_cin
+    cin >> n;
+    FOR(i,1,n,1) 
+    {
+        cin >> x[i];
+        m[x[i]]++;
+    }
+
+    ll i = 1, res = 0;
+    while(i <= n) 
+    {
+        // trang uu tien doi gan i nhat
+        if(x[i] == 'T')
+        {
+            if(m['X'] > 0) 
+            {
+                ll j = i + m['X'];
+                while(x[j] != 'X') j++;
+                swap(x[i],x[j]);
+                res++;
+            }
+        }
+        // do uu tien doi xa i nhat
+        else if(x[i] == 'D') 
+        {
+            if(m['X'] > 0) 
+            {
+                ll j = n;
+                while(x[j] != 'X') j--;
+                swap(x[i],x[j]);
+                res++;
+            }
+            else if(m['T'] > 0)
+            {
+                ll j = n;
+                while(x[j] != 'T') j--;
+                swap(x[i],x[j]);
+                res++;
+            }
+        }
+
+        m[x[i]]--;
+        i++;
+    }
+
+    cout << res;
+    
+    return 0;
+}

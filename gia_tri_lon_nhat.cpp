@@ -10,38 +10,20 @@
 using namespace std;
 const ll MOD=1e9+7;
 
-ll t, n;
-ll dp[100001];
-pair<ll,ll> a[100001];
+ll t, n, x;
     
 int main()
 {   
     fast_cin
-
-    cin >> n;
     ll res = 0;
-
+    cin >> n;
     FOR(i,1,n,1) 
     {
-        dp[i] = 1;
-        cin >> a[i].first >> a[i].second;
+        cin >> x;
+        if(x > 0) res += x;
     }
 
-    FOR(i,1,n,1) 
-    {
-        dp[i] = 1;
-        FORD(j,i-1,1,1) 
-        {
-            if(a[i].first > a[j].first && a[i].second > a[j].second) 
-            {
-                dp[i] = max(dp[j] + 1, dp[i]);
-            }
-        }
-
-        res = max(res, dp[i]);
-    }
-
-    cout << res;
+    cout << res * 2;
     
     return 0;
 }

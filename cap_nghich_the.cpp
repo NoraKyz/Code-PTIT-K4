@@ -11,7 +11,6 @@ using namespace std;
 const ll MOD=1e9+7;
 
 ll t, n;
-bool kt[100001] = {0};
 
 ll merge(ll a[], ll l, ll m, ll r)
 {
