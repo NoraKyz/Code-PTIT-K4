@@ -11,7 +11,8 @@ using namespace std;
 const ll MOD=1e9+7;
 
 ll t, n;
-ll a[100001];
+string s;
+ll dp[101][101] = {0};
     
 int main()
 {   
@@ -19,7 +20,22 @@ int main()
     cin >> t;
     while(t--)
     {
-    
+        cin >> s;
+        ll n = s.size();
+        FOR(j,1,n,1) 
+        {
+            dp[j][j] = 0;
+            FORD(i,j-1,1,1) 
+            {
+                if(s[i-1] == s[j-1]) dp[i][j] = dp[i+1][j-1];
+                else 
+                {
+                    dp[i][j] = min(dp[i+1][j],dp[i][j-1]) + 1;
+                }
+            }
+        }
+
+        cout << dp[1][n] << '\n';
     }
     
     return 0;

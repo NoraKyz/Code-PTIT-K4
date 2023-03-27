@@ -1,0 +1,1 @@
+{"name":"Local: bien_doi_s-t","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\bien_doi_s-t.cpp","tests":[{"id":1678669885907,"input":"3\n\n2 5\n\n3 7\n\n7 4\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\bien_doi_s-t.cpp","group":"local","local":true}

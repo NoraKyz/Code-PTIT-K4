@@ -10,8 +10,8 @@
 using namespace std;
 const ll MOD=1e9+7;
 
-ll t, n;
-ll a[100001];
+ll t, n, l, r;
+unordered_map<ll,ll> m;
 /*
     10
     5 0 5
@@ -37,32 +37,54 @@ ll a[100001];
 
     2 ^ (k+1) - 1
 */
-ll Solve(ll n, ll f[], ll k)
-{
-	if(n == 1) return 1;
-	if(k == f[n/2] + 1) return (f[n/2] + n%2);
 
-	if (k <= f[n/2]) return Solve(n/2, f, k);
-	else return f[n/2] + n%2 + Solve(n/2, f, k-f[n/2]-1);
+ll numberOf1(ll x) 
+{
+    if(x == 1) return 1;
+    
+    if(m[x] == 0) m[x] = numberOf1(x/2) * 2 + x%2;
+
+    return m[x];
 }
- 
-ll t, n, k, f[100];
+
+ll lenOfLastArray(ll x)
+{
+    ll cnt = 0;
+    while(x > 0) 
+    {
+        x /= 2;
+        cnt++;
+    }
+
+    ll res = 1;
+    FOR(i,1,cnt,1) res *= 2;
+
+    return res - 1;
+}
+
+ll Solve(ll n, ll k)
+{
+    if(k == 0) return 0;
+    
+	if(n == 1) return 1;
+
+    ll len = lenOfLastArray(n/2);
+
+	if(k == len + 1) return (numberOf1(n/2) + n%2);
+
+	if (k <= len) return Solve(n/2, k);
+	else return numberOf1(n/2) + n%2 + Solve(n/2, k-len-1);
+}
  
 int main()
 {
-    	fast_cin 	
-
-	f[1] = 1;
-	FOR(i,2,50,1) 
-    {
-        ll x = round(log2(i))
-    }
+    fast_cin 	
  
 	cin >> t;
 	while (t--)
 	{
-		cin >> n >> k;
-		cout << tim(n,f,k) << '\n';
+		cin >> n >> l >> r;
+        cout << Solve(n,r) - Solve(n,l-1) << '\n';
 	}
  
 	return 0;

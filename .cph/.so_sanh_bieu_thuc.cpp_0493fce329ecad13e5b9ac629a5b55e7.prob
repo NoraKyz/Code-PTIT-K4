@@ -1,0 +1,1 @@
+{"name":"Local: so_sanh_bieu_thuc","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\so_sanh_bieu_thuc.cpp","tests":[{"id":1678880117007,"input":"2\n-(a+b+c)\n-a-b-c\na-b-(c-d)\na-b-c-d","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\so_sanh_bieu_thuc.cpp","group":"local","local":true}
