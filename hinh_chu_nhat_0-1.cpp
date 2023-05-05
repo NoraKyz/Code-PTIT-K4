@@ -11,7 +11,7 @@ using namespace std;
 const ll MOD=1e9+7;
 
 ll t, n, m, x, res = 0;
-ll a[550][550];
+ll a[550][550]; //a[i][j] Canh dai nhat ket thuc tai i
 ll b[1000], c[1000];
 
 /*

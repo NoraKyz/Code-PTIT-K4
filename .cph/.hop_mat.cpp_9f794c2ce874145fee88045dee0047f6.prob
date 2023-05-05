@@ -1,0 +1,1 @@
+{"name":"Local: hop_mat","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\hop_mat.cpp","tests":[{"id":1682009570315,"input":"2 4 4\n\n2\n\n3\n\n1 2\n\n1 4\n\n2 3\n\n3 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\hop_mat.cpp","group":"local","local":true}

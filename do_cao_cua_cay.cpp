@@ -10,36 +10,35 @@
 using namespace std;
 const ll MOD=1e9+7;
 
-ll prime[] = {2, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31}, ans;
-int n;
+ll t, n, u, v;
+vector<ll> adj[100001];
 
-void Try(int i, ll a = 1, ll b = 1)
+ll maxDepth(ll x) 
 {
-    if(b > n) return;
+    ll res = 0;
 
-    if(b == n) ans = min(ans, a);
+    for(auto it : adj[x]) res = max(res, maxDepth(it) + 1);
 
-    ll j = 1;
-    while(a * prime[i] <= ans)
-    {
-        a *= prime[i];
-        Try(i + 1, a, b * (j + 1));
-        ++j;
-    }
+    return res;
 }
     
 int main()
-{
-    fast_cin;
-    
-    int t = 1;
+{   
+    fast_cin
     cin >> t;
     while(t--)
     {
         cin >> n;
-        ans = 1e18;
-        Try(1);
-        cout << ans << endl;
+        FOR(i,1,n-1,1) 
+        {
+            cin >> u >> v;
+            adj[u].pb(v);
+        }
+
+        cout << maxDepth(1) << '\n';
+
+        FOR(i,1,n,1) adj[i].clear();
     }
+    
     return 0;
 }

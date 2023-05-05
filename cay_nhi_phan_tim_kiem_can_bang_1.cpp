@@ -10,36 +10,20 @@
 using namespace std;
 const ll MOD=1e9+7;
 
-ll prime[] = {2, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31}, ans;
-int n;
-
-void Try(int i, ll a = 1, ll b = 1)
-{
-    if(b > n) return;
-
-    if(b == n) ans = min(ans, a);
-
-    ll j = 1;
-    while(a * prime[i] <= ans)
-    {
-        a *= prime[i];
-        Try(i + 1, a, b * (j + 1));
-        ++j;
-    }
-}
+ll t, n;
+ll a[1000001];
     
 int main()
-{
-    fast_cin;
-    
-    int t = 1;
+{   
+    fast_cin
     cin >> t;
     while(t--)
     {
         cin >> n;
-        ans = 1e18;
-        Try(1);
-        cout << ans << endl;
+        FOR(i,1,n,1) cin >> a[i];
+        sort(a+1,a+1+n);
+        cout << a[(n+1)/2] << '\n';
     }
+    
     return 0;
 }
