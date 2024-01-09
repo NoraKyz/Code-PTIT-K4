@@ -1,1 +1,0 @@
-{"name":"Local: dao_tu","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\dao_tu.cpp","tests":[{"id":1675654725538,"input":"2\nI like this program very much\nmuch very program this like I","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\dao_tu.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: do_thi_hai_phia","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\do_thi_hai_phia.cpp","tests":[{"id":1681960367329,"input":"2\n\n5 4\n\n1 5\n\n1 3\n\n2 3\n\n4 5\n\n3 3\n\n1 2\n\n1 3\n\n2 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\do_thi_hai_phia.cpp","group":"local","local":true}

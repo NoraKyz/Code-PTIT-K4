@@ -1,1 +1,0 @@
-{"name":"Local: loai_bo_dau_ngoac","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\loai_bo_dau_ngoac.cpp","tests":[{"id":1678708908229,"input":"2\n(\n(u)())()","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\loai_bo_dau_ngoac.cpp","group":"local","local":true}

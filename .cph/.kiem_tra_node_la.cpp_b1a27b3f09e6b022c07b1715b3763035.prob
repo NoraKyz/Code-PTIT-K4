@@ -1,1 +1,0 @@
-{"name":"Local: kiem_tra_node_la","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\kiem_tra_node_la.cpp","tests":[{"id":1681200055618,"input":"2\n2\n1 2 R 1 3 L\n4\n10 20 L 10 30 R 20 40 L 20 60 R","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\kiem_tra_node_la.cpp","group":"local","local":true}

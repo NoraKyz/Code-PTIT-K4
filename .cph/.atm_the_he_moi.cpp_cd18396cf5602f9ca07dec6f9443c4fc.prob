@@ -1,1 +1,0 @@
-{"name":"Local: atm_the_he_moi","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\atm_the_he_moi.cpp","tests":[{"id":1682043268672,"input":"4\n2000\n\n1\n\n7000\n\n1\n\n1500\n\n1\n\n110000","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\atm_the_he_moi.cpp","group":"local","local":true}

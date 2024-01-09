@@ -1,1 +1,0 @@
-{"name":"Local: hoan_vi_ke_tiep","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\hoan_vi_ke_tiep.cpp","tests":[{"id":1675044782149,"input":"2\n5 \n1  2  3  4  5\n5\n5  4  3  2  1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\hoan_vi_ke_tiep.cpp","group":"local","local":true}

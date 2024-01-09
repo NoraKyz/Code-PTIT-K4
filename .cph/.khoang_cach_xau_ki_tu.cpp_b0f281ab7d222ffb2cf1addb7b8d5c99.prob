@@ -1,1 +1,0 @@
-{"name":"Local: khoang_cach_xau_ki_tu","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\khoang_cach_xau_ki_tu.cpp","tests":[{"id":1679278049301,"input":"1\n8 TOON  PLEA\nPOON TOON PLEE SAME  POIE  PLEA  PLIE  POIN","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\khoang_cach_xau_ki_tu.cpp","group":"local","local":true}

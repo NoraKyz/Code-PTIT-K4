@@ -1,1 +1,0 @@
-{"name":"Local: sap_xep_noi_bot","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\sap_xep_noi_bot.cpp","tests":[{"id":1675515413453,"input":"4\n\n5 3 2 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\sap_xep_noi_bot.cpp","group":"local","local":true}

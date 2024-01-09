@@ -1,1 +1,0 @@
-{"name":"Local: sap_xep_[0_1_2]","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\sap_xep_[0_1_2].cpp","tests":[{"id":1675439764941,"input":"2\n5\n0 2 1 2 0\n\n3\n0 1 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\sap_xep_[0_1_2].cpp","group":"local","local":true}

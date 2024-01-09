@@ -1,1 +1,0 @@
-{"name":"Local: diem_can_bang","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\diem_can_bang.cpp","tests":[{"id":1675608953031,"input":"2\n\n7\n\n-7 1 5 2 -4 3 0\n\n5\n\n1 2 3 4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\diem_can_bang.cpp","group":"local","local":true}

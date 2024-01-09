@@ -11,54 +11,62 @@ using namespace std;
 const ll MOD=1e9+7;
 
 ll t, n, m, q;
-vector<ll> adj[2001];
-bool visited[2001] = {0};
+ll parent[1001], sz[1001];
 
-void DFS(ll u)
-{
-    visited[u] = 1;
-    for(ll v : adj[u])
+void make_set(ll v) {
+    parent[v] = v;
+    sz[v] = 1;
+}
+
+ll find_set(ll v) {
+    return v == parent[v] ? v : parent[v] = find_set(parent[v]);
+}
+
+void union_sets(ll a, ll b) {
+    a = find_set(a);
+    b = find_set(b);
+
+    if (a != b) 
     {
-        if(!visited[v]) DFS(v);
-    }
+        if (sz[a] < sz[b]) swap(a, b);
+        parent[b] = a;
+        sz[a] += sz[b]; 
+    } 
 }
-
-string Solve(ll a, ll b) 
-{
-    DFS(a);
-    if(visited[b]) return "YES";
-    return "NO";
-}
-
-    
+   
 int main()
 {   
     fast_cin
     cin >> t;
     while(t--)
     {
+        memset(parent, 0, sizeof(parent));
+        memset(sz, 0, sizeof(sz));
+
+        bool kt = 0;
+
         cin >> n >> m;
+
+        FOR(i,1,n,1) make_set(i); 
+
         FOR(i,1,m,1) 
         {
             ll x, y;
             cin >> x >> y;
-            adj[x].pb(y);
-            adj[y].pb(x);
+            if(find_set(x) != find_set(y)) union_sets(x, y);
         }
 
         cin >> q;
-        while(q--) 
+        FOR(i,1,q,1) 
         {
             ll x, y;
             cin >> x >> y;
-            cout << Solve(x,y) << '\n';
-            FOR(i,1,n,1) visited[i] = 0;
+            if(find_set(x) == find_set(y)) cout << "YES";
+            else cout << "NO";
+
+            cout << '\n';
         }
 
-        FOR(i,1,n,1) adj[i].clear();
-        
     }
-    
-    
     return 0;
 }

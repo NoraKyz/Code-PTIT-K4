@@ -1,1 +1,0 @@
-{"name":"Local: gia_tri_lon_nhat","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\gia_tri_lon_nhat.cpp","tests":[{"id":1678121275826,"input":"5\n\n-3 5 -10 8 -2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\gia_tri_lon_nhat.cpp","group":"local","local":true}

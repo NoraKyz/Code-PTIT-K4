@@ -1,1 +1,0 @@
-{"name":"Local: boi_so_lon_nhat_cua_3","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\boi_so_lon_nhat_cua_3.cpp","tests":[{"id":1679236110731,"input":"3\n\n3\n\n8 1 9\n\n5\n\n8 1 7 6 0\n\n2\n\n5 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\boi_so_lon_nhat_cua_3.cpp","group":"local","local":true}

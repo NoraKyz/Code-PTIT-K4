@@ -1,1 +1,0 @@
-{"name":"Local: tinh_floor(x)","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\tinh_floor(x).cpp","tests":[{"id":1675305001538,"input":"3\n7 20\n1 2 8 10 11 12 19\n7 5\n1 2 8 10 11 12 19\n7 10\n1 2 8 10 11 12 19","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\tinh_floor(x).cpp","group":"local","local":true}

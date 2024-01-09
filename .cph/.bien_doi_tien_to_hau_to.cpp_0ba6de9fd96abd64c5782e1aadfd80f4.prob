@@ -1,1 +1,0 @@
-{"name":"Local: bien_doi_tien_to_hau_to","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\bien_doi_tien_to_hau_to.cpp","tests":[{"id":1677000550320,"input":"2\n\n*+AB-CD\n\n*-A/BC-/AKL","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\bien_doi_tien_to_hau_to.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: so_xuat_hien_nhieu_nhat","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\so_xuat_hien_nhieu_nhat.cpp","tests":[{"id":1675608826454,"input":"2\n\n9\n\n3 3 4 2 4 4 2 4 4\n\n8\n\n3 3 4 2 4 4 2 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\so_xuat_hien_nhieu_nhat.cpp","group":"local","local":true}

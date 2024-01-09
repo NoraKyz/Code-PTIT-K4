@@ -1,1 +1,0 @@
-{"name":"Local: phep_toan_co_ban","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\phep_toan_co_ban.cpp","tests":[{"id":1678206042422,"input":"2\n?? ? ?? = ??\n40 / ?3 = ??","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\phep_toan_co_ban.cpp","group":"local","local":true}

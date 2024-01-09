@@ -1,1 +1,0 @@
-{"name":"Local: bo_ba_so_co_tong_nho_hon_k","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\bo_ba_so_co_tong_nho_hon_k.cpp","tests":[{"id":1675525791812,"input":"2\n4 2\n-2 0 1 3\n5 12\n5 1 3 4 7\n1 3 4 5 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\bo_ba_so_co_tong_nho_hon_k.cpp","group":"local","local":true}

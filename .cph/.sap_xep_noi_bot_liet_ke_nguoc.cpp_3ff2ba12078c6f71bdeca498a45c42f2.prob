@@ -1,1 +1,0 @@
-{"name":"Local: sap_xep_noi_bot_liet_ke_nguoc","url":"f:\\Dev\\Source Code\\Code-PTIT-K4\\sap_xep_noi_bot_liet_ke_nguoc.cpp","tests":[{"id":1675522521276,"input":"1\n6\n4 1 3 9 8 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Dev\\Source Code\\Code-PTIT-K4\\sap_xep_noi_bot_liet_ke_nguoc.cpp","group":"local","local":true}
